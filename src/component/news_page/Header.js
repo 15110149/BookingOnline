@@ -17,17 +17,20 @@ class Header extends Component {
     render() {
         return (
             <div>
-                <header>
-                <nav className="navbar navbar-expand-lg navbar-light affix vesco-top-nav" id="mainNav" data-toggle="affix">
-                        <div className="container  ">
-                            <a className="navbar-brand smooth-scroll" href="index.html">
-                                <img src="img/logoXsmall.png" alt="logo" width="70%" height="60%" />
-                            </a>
-                            <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                                <span className="navbar-toggler-icon" />
-                            </button>
-                            <div className="collapse navbar-collapse " id="navbarResponsive">
-                            <ul className="navbar-nav ml-auto ">
+               <header> 
+          <nav className="navbar navbar-expand-lg navbar-light affix vesco-top-nav" id="mainNav" data-toggle="affix">
+              <div className="container  ">
+                <a className="navbar-brand smooth-scroll" >
+                  <img src="img/logoH.png" alt="logo" width="60%" height="50%" />
+                </a>
+                <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                  <span className="navbar-toggler-icon" />
+                </button>
+                <div className="collapse navbar-collapse " id="navbarResponsive" >
+
+
+
+                  <ul className="navbar-nav ml-auto " >
                     <li className="nav-item">
                       <Link to="/" className="nav-link smooth-scroll" >Home</Link>
 
@@ -40,16 +43,16 @@ class Header extends Component {
                       <Link to="/about" className="nav-link smooth-scroll" >About Us</Link>
                     </li>
 
-                    <li className="nav-item dropdown">
+                    {/* <li className="nav-item dropdown">
                       <Link to="/news" className="nav-link smooth-scroll" >News</Link>
-                    </li>
-                    <li className="nav-item dropdown">
+                    </li> */}
+                    {/* <li className="nav-item dropdown">
                       <Link to="/career" className="nav-link smooth-scroll" >Career</Link>
                     </li>
 
                     <li className="nav-item dropdown">
                       <Link to="/contact" className="nav-link smooth-scroll" >Contact Us</Link>
-                    </li>
+                    </li> */}
 
                     <li>
                       <div className="top-menubar-nav">
@@ -66,39 +69,40 @@ class Header extends Component {
                                     <i className="fa fa-phone" /> Hotline: (+84) 93 905 3790
                                       </li>
                                 </ul>
-                                                        </div>
-                                                        <div className="col-md-3">
-                                                            <ul className="list-inline top-data">
-                                                                <li>
-                                                                    <a href="#" target="_empty">
-                                                                        <i className="fa top-social fa-facebook" />
-                                                                    </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#" target="_empty">
-                                                                        <i className="fa top-social fa-twitter" />
-                                                                    </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#" target="_empty">
-                                                                        <i className="fa top-social fa-google-plus" />
-                                                                    </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#" className="log-top" data-toggle="modal" data-target="#login-modal">Login</a>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
+                              </div>
+                              <div className="col-md-3">
+                                <ul className="list-inline top-data">
+                                  <li>
+                                    <a href="#" target="_empty">
+                                      <i className="fa top-social fa-facebook" />
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="#" target="_empty">
+                                      <i className="fa top-social fa-twitter" />
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="#" target="_empty">
+                                      <i className="fa top-social fa-google-plus" />
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="#" className="log-top" data-toggle="modal" data-target="#login-modal">Login</a>
+                                  </li>
                                 </ul>
+                               
+                              </div>
                             </div>
+                          </div>
                         </div>
-                    </nav>
-                </header>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </header>
                 <div>
                     <section id="login">
                         <div className="modal fade" id="login-modal" tabIndex={-1} role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style={{ display: 'none' }}>
@@ -161,8 +165,9 @@ class Header extends Component {
 ======================================================*/}
                     <div id="home-p" className="home-p pages-head1 text-center">
                         <div className="container">
-                            <h1 className="wow fadeInUp" data-wow-delay="0.1s">Blogs</h1>
-                            <p>Discover Technologies</p>
+                        <br/><br/><br/>
+                            <h1 className="wow fadeInUp" data-wow-delay="0.1s">SUBMIT INFORMATION</h1>
+                            <p></p>
                         </div>
                         {/*/end container*/}
                     </div>

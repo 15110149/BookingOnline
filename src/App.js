@@ -55,7 +55,7 @@ class App extends Component {
               <Route path="/n2" component={N2}/> 
               <Route path="/n3" component={N3}/> 
               <Route path="/n4" component={N4}/>  */}
-
+<Route path="/news"  component={Detail_new} />
 
             </div>
           </BrowserRouter>
