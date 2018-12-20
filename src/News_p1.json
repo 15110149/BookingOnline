@@ -1,0 +1,27 @@
+[
+    {
+        "key":1,
+        "NewsImg":"img/news/news-blockchain.jpg",
+        "NewsTittle":"How Blockchain Companies Offer The Promise of Modernisation to Mainstream Industries",
+        "Content":" Blockchain, a technology that was until very recently the domain of techies, has caught the attention of mainstream industries  around the world. Businesses across various sectors are now lining up to adopt this distributed ledger technology which promises far greater levels of efficiency, security, and productivity than most current technologies offer. This is distributed ledger tech offers a decentralised and transparent method for two or more parties to conduct transactions involving money and high-value assets and exchange valuable documents or information in a highly secure manner.",
+        "LinkNew":"/detail-new-p1"
+    },
+    {
+        "key":2,
+        "NewsImg":"img/news/10ai.jpg",
+        "NewsTittle":"10 Artificial Intelligence Technologies That Will Dominate in 2018",
+        "Content":" In 2017, we published a popular post on artificial intelligence (AI) technologies that would dominate that year, based on Forrester’s TechRadar report. Here’s the updated version, which includes 9 more technologies to watch out for this year. We hope they inspire you to join the 62% of companies boosting their enterprises in 2018.",
+        "LinkNew":"/detail-new-p2"
+    
+    },
+    {
+        "key":3,
+        "NewsImg":"img/news/top.jpg",
+        "NewsTittle":"Social Networking Sites You Need to Know About in 2018",
+        "Content":"Human nature by default has been programmed to be socially active to a certain extent. Some people are more active, while others are less so! However, people have always been looking for ways to connect and network with each other. And, in this age of digitisation, people have found ways to be socially active on the internet, which is possible with the advent of the numerous social networking platforms and apps. Now, even relationships begin, grow and end on social media. People no longer need a personal handshake or face-to-face  meeting. Social media sites have also grown in numbers by leaps and bounds. As per the statistics revealed on Statista, approximately 2 billion users used social networking sites and apps in 2015. And, with the increased use of mobile devices, this number is likely to cross the 2.6 billion mark by 2018. So, in this article, we discuss some of the most popular social media sites that are being explored by the world today. You can find out if your favourite social media platform is a part of this list and even learn about some really good online social platforms that you can start using today.",
+        "LinkNew":"/detail-new-p3"
+    }
+   
+
+    
+]

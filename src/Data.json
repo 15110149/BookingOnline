@@ -1,0 +1,38 @@
+[
+    {
+        "key":1,
+        "Tittle":"Web Application",
+        "Info":"This is the Website's world",
+        "Icon":"fa fa-laptop fa-3x"
+    },
+    {
+        "key":2,
+        "Tittle":"Mobile Apps",
+        "Info":"This is the Website's world",
+        "Icon":"fa fa-android  fa-3x"
+    },
+    {
+        "key":3,
+        "Tittle":"Design",
+        "Info":"This is the Website's world",
+        "Icon":"fa fa-envira  fa-3x"
+    },
+    {
+        "key":4,
+        "Tittle":"Build Start-up Products",
+        "Info":"This is the Website's world",
+        "Icon":"fa fa-pagelines fa-3x"
+    },
+    {
+        "key":5,
+        "Tittle":"Start-up Supporting",
+        "Info":"This is the Website's world",
+        "Icon":"fa fa-group fa-3x"
+    },
+    {
+        "key":6,
+        "Tittle":"Technology solutions",
+        "Info":"This is the Website's world",
+        "Icon":"fa fa-lightbulb-o fa-3x"
+    }
+]

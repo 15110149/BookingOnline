@@ -1,0 +1,463 @@
+/*
+author: Boostraptheme
+author URL: https://boostraptheme.com
+License: Creative Commons Attribution 4.0 Unported
+License URL: https://creativecommons.org/licenses/by/4.0/
+*/ 
+
+/*====================================================
+                   BUSINESS-GROWTH-P1
+======================================================*/
+
+.bgtop{
+    /* background-color: rgba(31, 32, 30, 0.897); */
+    background-color: rgb(32, 31, 31);
+
+}
+.bor{
+   
+   color: rgb(0, 0, 0);
+
+}
+.list {
+    list-style:square;
+    text-align: left;
+    padding-left: 35%;
+    color:white;
+}
+.listM {
+    list-style:square;
+    text-align: left;
+    padding-left: 20%;
+    color:white;
+}
+.one_third {
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 2%
+}
+
+.three_third {
+    width: 40%;
+    padding-left: 5%;
+    padding-right: 5%
+}
+
+.five_third {
+    width: 15%;
+    padding-left: 5%;
+    padding-right: 5%;
+  
+  
+  
+}
+.bigquote {
+    margin: 0 0 0px;
+    line-height: 1.3em;
+    color: #363636;
+  
+}
+
+.serviceRow {
+    background: #fff;
+    height: 225px;
+    border-bottom: 1px #cccccc solid;
+    transition:  0.3s linear;
+    -moz-transition:  0.3s linear;
+    -webkit-transition:  0.3s linear;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+
+#career-p3 .career-p3-cont {
+    padding: 30px;
+    margin: 15px 0;
+    background: #fff;
+    box-shadow: 2px 2px 2px #ddd;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.text-center {
+    text-align: center!important;
+}
+.business-growth-p1 {
+    padding-bottom: 100px;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    /* display:initial; */
+}
+
+.business-growth-p1>.container>.row>.service-padding {
+    padding: 0;
+    padding-left: 150px
+    
+}
+
+.service-item {
+    padding: 40px 0 0 0;
+    margin: 0;
+    border: 1px solid #ddd;
+    border-right: 0px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    text-align: center;
+    transition: padding .5s ease;
+}
+
+.service-item:last-child {
+    border-right: 1px solid #ddd;
+}
+
+.service-item:hover {
+    padding: 20px 0 10px 0;
+    margin: 0;
+    transition: all .5s ease;
+    border-bottom: 5px solid rgb(243, 181, 9);
+}
+
+.service-item-icon {
+    width: 102px;
+    height: 102px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border: 6px solid #f6f6f6;
+    border-radius: 100%;
+}
+
+.service-item-icon i {
+    color: rgb(243, 181, 9);
+    height: 90px;
+    line-height: 90px;
+    width: 90px;
+    border: 1px solid #e0e0e0;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.service-item:hover .service-item-icon i {
+    color: #fff;
+    background-color: rgb(243, 181, 9);
+}
+
+.service-item-title h3 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+    margin: 0 0 10px 0;
+    text-transform: capitalize;
+}
+
+.service-item-desc p {
+    margin: 20px auto;
+    width: 70%;
+    text-align: center
+}
+
+ul.service-spec {
+    list-style: none;
+    padding-left: 0;
+    margin: 10px 0 40px 0;
+}
+
+ul.service-spec li p {
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+    .business-growth-p1 {
+        padding:0px 40px 100px 40px;
+        /* padding-left: 150px */
+    }
+}
+@media (max-width: 320px) {
+    .business-growth-p1 {
+        padding:0px 40px 100px 40px;
+        /* padding-left: 150px */
+    }
+}
+@media (max-width: 375px) {
+    .business-growth-p1 {
+        padding:0px 40px 100px 40px;
+        /* padding-left: 150px */
+    }
+}
+@media (max-width: 411px) {
+    .business-growth-p1 {
+        padding:0px 40px 100px 40px;
+        /* padding-left: 150px */
+    }
+}
+@media (min-width: 768px) {
+    /* .business-growth-p1 .title-bar p{
+        width: 500px;
+        /* padding:0px 34px 30px 34px; */
+        text-align: center;
+        /* padding-left: 150px */
+    
+    .col-md-12{
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-right: 90px;
+    }
+    .title-bar h1 {
+        color: #41464b;
+        text-align: center;
+        font-weight: 700;
+        margin: 0px auto 10px 50px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .business-growth-p1 .title-bar p{
+        width: 500px;
+        /* padding:0px 34px 30px 34px; */
+        text-align: center;
+        /* padding-left: 150px */
+    }
+    .col-md-12{
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-right: 90px;
+    }
+    .title-bar h1 {
+        color: #41464b;
+        text-align: center;
+        font-weight: 700;
+        margin: 0px auto 10px 50px;
+    }
+}
+@media (max-width: 812px) {
+    .business-growth-p1 .title-bar p{
+        width: 100%;
+        /* padding:0px 34px 30px 34px; */
+        text-align: center;
+        /* padding-left: 150px */
+    }
+    /* .col-md-12{
+        flex: 0 0 100%;
+      
+        padding-right: 10px;
+        position: relative;
+        width: 100%; }*/
+      
+    
+    .title-bar h1 {
+        color: #41464b;
+        text-align: center;
+        font-weight: 700;
+        margin: 0px 50px 10px 50px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .business-growth-p1 .title-bar p{
+        width: 100%;
+       
+        text-align: center;
+        padding-left: 3px
+    }
+    .title-bar h1 {
+        color: #41464b;
+        text-align: center;
+        font-weight: 700;
+        margin: 0px 10px 10px 10px;
+    }
+}
+/*====================================================
+                   FINANCIAL-P1
+======================================================*/
+ 
+.financial-p2-bg {
+    background-image: url(../img/image-1.jpg);
+    background-repeat: no-repeat;
+}
+
+.financial-p3-bg {
+    background-image: url(../img/image-2.jpg);
+    background-repeat: no-repeat;
+}
+
+#financial-p1 .financial-p1-emp-desc-d {
+    display: block;
+}
+
+#financial-p1 .financial-p1-pos {
+    /*height: 600px;*/
+    width: 100%;
+    padding: 150px 50px;
+    background: #fff;
+}
+
+#financial-p1 .financial-p1-pos .financial-p1-cont {
+    padding-left: 70px;
+}
+
+#financial-p1 .financial-p1-pos .financial-p1-cont h3 {
+    font-weight: normal;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding:5px 0 10px 0;
+
+}
+
+#financial-p1 .financial-p1-pos .financial-p1-cont p {
+    font-size: 15px;
+}
+
+@media (max-width: 767px) {
+
+    #financial-p1 .financial-p1-emp-desc-u {
+        display: block;
+    }
+
+    #financial-p1 .financial-p1-emp-desc-d {
+        display: none;
+    }
+    .financial-p1-emp-img {
+        height: 300px;
+    }
+    #financial-p1 .financial-p1-pos {
+        width: 100%;
+        padding: 50px 50px;
+        background: #fff;
+    }
+}
+
+@media (max-width: 420px) {
+
+    #financial-p1 .financial-p1-pos .financial-p1-cont {
+        padding-left: 10px;
+    }
+}
+
+@media (min-width: 1600px) {
+    #financial-p1 .financial-p1-pos .financial-p1-cont p {
+        font-size: 16px;
+    }
+}
+
+
+/*====================================================
+                   FINANCIAL-P5
+======================================================*/
+
+.financial-p5 .title-bar {
+    padding: 50px;
+}
+
+.financial-p5 .title-bar h1 {
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    margin: 20px auto 10px auto;
+}
+
+.financial-p5 .what-we-desc {
+    text-align: center;
+    padding: 0 10px;
+}
+
+.financial-p5 .what-we-desc i {
+    float: none;
+    font-size: 65px;
+    height: 85px;
+    line-height: 85px;
+}
+
+.financial-p5 .what-we-desc h6 {
+    text-transform: uppercase;
+}
+
+.financial-p5 .what-we-desc h6,
+.financial-p5 .what-we-desc p {
+    color: #ddd;
+}
+
+
+
+/*====================================================
+                   FINANCIAL-P6
+======================================================*/
+
+.financial-p6 {
+    padding: 100px 0;
+}
+
+.financial-p6 .financial-p6-cont {
+    padding-top: 10px;
+    padding-left: 100px;
+}
+
+.financial-p6 .financial-p6-cont h2{
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:#555;
+}
+
+.financial-p6 .financial-p6-cont p{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+    .financial-p6 .financial-p6-cont {
+        padding-left: 20px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .financial-p5 .what-we-desc p {
+        font-size: 16px;
+    }    
+
+    .financial-p6 .financial-p6-cont p{
+        font-size: 16px;
+        padding-bottom: 20px;
+    }
+}
+.section_row {
+    position: relative;
+    padding: 30px 0;
+}
+.section_inner {
+    width: 88%;
+    max-width: 1170px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 3;
+}
+.demo_space {
+    display: block;
+    margin: 0;
+    width: 100%;
+}
+
+.CircleBarWrap {
+    display: table;
+    text-align: center;
+    margin: 0 auto;
+}
+.chart {
+    float: left;
+    margin: 10px;
+}
+.easyPieChart {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+}
+.chart .label {
+    text-align: center;
+    color: #333;
+    font-size: 1em;
+    margin: 0.8em 0;
+}
+

@@ -1,0 +1,99 @@
+/*
+author: Boostraptheme
+author URL: https://boostraptheme.com
+License: Creative Commons Attribution 4.0 Unported
+License URL: https://creativecommons.org/licenses/by/4.0/
+*/ 
+
+.cl-blue{
+    color: #57ac46;
+}
+ .overlay {
+     position: absolute;
+     width: 100%;
+     height: 100vh;
+     z-index: 0;
+    background: rgba(0, 0, 0, 0.66); 
+    background: linear-gradient(to top, rgba(44, 44, 44, 0.993), #191a19);
+
+ }
+
+.hero-area {
+    text-align: center;
+    color: white;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+  
+ .hero-area {
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .hero-area h1 {
+     color: #fff;
+     font-size: 200px;
+     text-transform: uppercase;
+     font-weight: bold;
+     padding-bottom: 19px;
+     margin-top: 30px;
+ }
+
+ .hero-area p {
+     color: #fff;
+     font-size: 20px;
+     line-height: 1.3;
+ }
+
+
+.hero-area .block a {
+    margin:5px 8px;
+}
+ 
+ .btn-general {
+    background-color: transparent;
+    text-align: center;
+    border-width: 1px;
+    border-radius: 0px;
+    font-size: 17px;
+    padding: 10px 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn-white {
+    border-color: #fff;
+    background-color: transparent;
+    color: #fff;
+}
+
+.btn-white:hover,
+.btn-white:focus {
+    background-color:#fff;
+    color: #6e746d;
+    border-color: #434642;
+    cursor: pointer;
+}
+
+.btn-blue {
+    border-color: #b8f3ac;
+    background: #2a9415;
+    color: #fff;
+}
+
+.btn-blue:hover,
+.btn-blue:focus {
+    border-color: #b8f3ac;
+    background-color: transparent;
+    color: #57ac46;
+    cursor: pointer;
+}
+ 

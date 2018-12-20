@@ -1,0 +1,25 @@
+[
+    {
+        "key":1,
+        "Trend_Img":"img/news/ht.jpg",
+        "Trend_tittle":"7 Technology Trends That Will Dominate 2018",
+        "Desc":" So what will the biggest tech trends of 2018 be, and how will our lives change, accordingly?",
+        "Trend_Link":"https://www.forbes.com/sites/jaysondemers/2017/12/30/7-technology-trends-that-will-dominate-2018/#75cbb5cb57d7"
+    },
+    
+    {
+        "key":2,
+        "Trend_Img":"img/news/ht2.jpg",
+        "Trend_tittle":"6 Software Development Trends for 2018",
+        "Desc":" There’s endless opportunity and danger ahead, and who is society going to call on to help us navigate it?",
+        "Trend_Link":"https://stackify.com/software-development-trends-2018/"
+    },
+    {
+        "key":3,
+        "Trend_Img":"img/news/hw.jpg",
+        "Trend_tittle":"Hot hardware trends for 2018",
+        "Desc":" How could stock kitchen cabinets offer soft close and you don’t?",
+        "Trend_Link":"https://www.woodworkingnetwork.com/best-practices-guide/components-hardware-assembly/hot-hardware-trends-2018"
+    }
+    
+]

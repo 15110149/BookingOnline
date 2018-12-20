@@ -1,0 +1,33 @@
+[
+    {
+        "key":1,
+        "NS_Img":"img/news/n1.jpg",
+        "NS_Tittle":"EU Watchdog Accuses Facebook, Google of Privacy Shenanigans",
+        "NS_Day":"Jun 29, 2018 5:00 AM PT ",
+        "LinkN":"/n1"
+    },
+    {
+        "key":2,
+        "NS_Img":"img/news/n2.jpg",
+        "NS_Tittle":"Best free Android apps of 2018: 100 you must download",
+        "NS_Day":"19 hours ago",
+        "LinkN":"/n2"
+    },
+    {
+        "key":3,
+        "NS_Img":"img/news/n3.jpg",
+        "NS_Tittle":"Google's new API improves biometric authentication in Android P",
+        "NS_Day":"22 June 2018, 17:05 p.m ",
+        "LinkN":"/n3"
+    },
+    {
+        "key":4,
+        "NS_Img":"img/news/n4.jpg",
+        "NS_Tittle":"Google Cloud App Engine now supports the Node.js runtime",
+        "NS_Day":"13 June 2018, 15:03 p.m ",
+        "LinkN":"/n4"
+    }
+   
+
+    
+]
