@@ -28,7 +28,7 @@ class About_Top extends React.Component {
       LoaiPhong: [],
       dataphongtrong: null,
       valueLoaiPhong: null,
-      visibleModal: true,
+      visibleModal: false,
       loadingCheckPhongTrong: false,
       NgayDi: "",
       NgayDen: ""
