@@ -62,20 +62,21 @@ class ModalDatPhong extends React.Component {
     const { SoNguoi, HoTen, Email, DienThoai } = this.state;
     const { NgayDi, NgayDen, dataphongtrong, onCancel } = this.props;
     if (this.checkvalidate() !== false) {
-      const res = await axios.post(
-        "https://mighty-coast-18749.herokuapp.com/api/online",
-        {
-          Phong: dataphongtrong._id,
-          NgayDi,
-          SoNguoi,
-          NgayDen,
-          HoTen,
-          Email,
-          SoDienThoai: DienThoai
-        }
-      );
+      this.setState({ loadingDatPhong: true });
+      const res = await axios.post("https://mighty-coast-18749.herokuapp.com/api/online", {
+        Phong: dataphongtrong._id,
+        NgayDi,
+        SoNguoi,
+        NgayDen,
+        HoTen,
+        Email,
+        SoDienThoai: DienThoai
+      });
       if ((res.status = 200)) {
+        this.setState({ loadingDatPhong: false });
         message.success("Đặt phòng thành công");
+        message.success("Kiểm tra mail để biết thêm chi tiết");
+
         this.setState({
           KhachHang: "",
           Phong: "",
@@ -98,7 +99,7 @@ class ModalDatPhong extends React.Component {
       onCancel,
       LoaiPhong
     } = this.props;
-    const { SoNguoi, HoTen, Email, DienThoai } = this.state;
+    const { SoNguoi, HoTen, Email, DienThoai,loadingDatPhong } = this.state;
     console.log("Modal dat phong ", this.props);
     console.log("Visible dat phong ", visible);
     return (
@@ -164,8 +165,8 @@ class ModalDatPhong extends React.Component {
               type="primary"
               htmlType="submit"
               className="button"
-              //   loading={adddatphong.isFetching} // true
-              //   disabled={adddatphong.isFetching}
+                loading={loadingDatPhong} // true
+                disabled={loadingDatPhong}
             >
               Đặt phòng
             </Button>

@@ -106,7 +106,7 @@ class About_Top extends React.Component {
   };
 
   handleCancel = () => {
-    this.setState({ visibleModal: false, NgayDi: "", NgayDen: "", });
+    this.setState({ visibleModal: false});
   };
 
   componentDidMount = () => {
