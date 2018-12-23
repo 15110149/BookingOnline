@@ -63,7 +63,7 @@ class ModalDatPhong extends React.Component {
     const { NgayDi, NgayDen, dataphongtrong, onCancel } = this.props;
     if (this.checkvalidate() !== false) {
       this.setState({ loadingDatPhong: true });
-      const res = await axios.post("https://mighty-coast-18749.herokuapp.com/api/online", {
+      const res = await axios.post("http://localhost:3210/api/online", {
         Phong: dataphongtrong._id,
         NgayDi,
         SoNguoi,
